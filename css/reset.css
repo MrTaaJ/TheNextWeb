@@ -1,1 +1,29 @@
 /* Base styles */
+:root{
+    --maincolor: rgba(80, 86, 102, 1);
+    --backcolor: rgb(150, 157, 175, 1);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-weight: normal;
+    background-color: white;
+    color: var(--maincolor);
+    font-family: 'Graphik', sans-serif;
+    /*font-family: 'Bebas Neue', cursive;
+    font-family: 'Bungee Hairline', cursive;*/
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.group::after
+{
+clear: both;
+content: ".";
+display: block;
+height: 0px;
+line-height: 0px;
+visibility: hidden;
+}
