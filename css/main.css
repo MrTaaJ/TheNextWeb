@@ -1,8 +1,9 @@
-/*==== Header ====*/
+/*==== Root ====*/
 :root{
     --maincolor: rgba(80,86,102, 1);
     --backcolor: #F7F8F8;
 }
+/*==== Header ====*/
 .header{
     height: 85px;
     display: block;
@@ -10,7 +11,7 @@
     box-shadow: 2px 20px 30px #d1d1d1;
     position: fixed;
     width: 100%;
-    
+    z-index: 2;
 }
 .navheader{
     width: 100%;
@@ -98,14 +99,15 @@
     height: 600px;
     background-color: rgb(238, 216, 216);
     width: 100%;
-    display: flex;
+    display: grid;
+    place-items: center;
 }
 .f1-5{
     height: 600px;
-    width: 100%;
+    max-width: 1600px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     
 }
 .f1a2{
@@ -180,9 +182,9 @@
     height: 500px;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat (4, 26%);
+    grid-template-columns: repeat (4, 25%);
     grid-template-rows: repeat (5, 20%);
-    
+    grid-gap: 10px;
     box-sizing: border-box;
 }
 .g1{
@@ -233,13 +235,17 @@
     border: solid black 1px;
 }
 .sectop{
-    width: 100%;
-    height: 400px;
-    background-color: var(--backcolor);
-    display: block;
+    display: grid;
+    place-items: center;
     padding: 50px;
+    background-color: var(--backcolor);
 }
-.sectop>h2{
+.sectop-grid{
+    max-width: 1500px;
+    height: 300px;
+    display: block;
+}
+.sectop-grid>h2{
     text-align: center;
 }
 .st-art{
@@ -248,7 +254,7 @@
     height: 220px;
     width: 100%;
     background-color: yellow;
-    padding: 1.5% 3%;
+    padding: 1.5% 1%;
 }
 .st-art1{
     background-color: rgba(44, 2, 14, 0.089);
@@ -268,10 +274,16 @@
     color: brown;
 }
 .trdtop{
-    padding:2% 5%;
+    display: block;
+    padding: 3% 5%;
     background-color: aqua;
-    width: 100%;
     margin-top: 50px;
+    display: grid;
+    place-items: center;
+}
+.trdtop1{
+    background-color: tomato;
+    max-width: 1300px;
 }
 .ttop-flex{
     margin: 30px 0px;
@@ -310,4 +322,155 @@
     border-radius: 20px;
     text-align: center;
     padding: 7px;
+}
+
+/*==== Bottom Part ====*/
+.bottom{
+    margin-top: 50px;
+    background-color: darkblue;
+    display: grid;
+    place-items: center;
+    
+}
+/*==== Bottom Part (1)====*/
+.bottom1{
+    background-color: var(--backcolor);
+    padding: 100px 40px;
+    max-width: 1600px;
+}
+.bott{
+    display: inline-block;
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgb(24, 23, 21);
+}
+.bott-box{
+    background-color: darkorange;
+    width: 19%;
+    margin-right: 7px;
+    display: inline-block;
+}
+.bott-logo{
+    background-color: rgb(0, 162, 255);
+    padding: 40px 33%;
+}
+.bott-text{
+    margin-top: 30px;
+    background-color: rgb(77, 58, 35);
+    text-align: center;
+    padding: 20px;
+}
+/*==== Bottom Part (2)====*/
+.bottom2{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(77, 58, 35);
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.bott2-inp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+    width: 700px;
+    border: solid red 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+.bott2-inp ion-icon{
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--maincolor);
+}
+.bott2-inp1{
+    width: 80%;
+    height: 48px;
+    font-size: 16px;
+    color: var(--maincolor);
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+.bott2-inp p{
+    color: var(--maincolor);
+    cursor: pointer;
+}
+.soc-logo{
+    margin-top: 30px;
+}
+.soc-logo ion-icon{
+    font-size: 25px;
+    color: var(--maincolor);
+    margin: -5px;
+}
+/*==== Bottom Part (3)====*/
+.bottom3{
+    background-color: violet;
+    padding: 70px 50px;
+    max-width: 1300px;
+}
+.bott3{
+    height: 700px;
+    border: solid black 2px;
+    margin-top: 50px;
+}
+/*==== Bottom Part (4)====*/
+.bottom4{
+    background-color: white;
+    padding: 100px 50px;
+}
+.bott4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 1300px;
+    background-color: black;
+    grid-gap: 40px;
+}
+.text p{
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.bott4-1{
+    width: 50%;
+}
+.bott4-but{
+    background-color: #00CCCC;
+    width: 150px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.bott4-but a{
+    text-decoration: none;
+    color: white;
+}
+.bott4-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    grid-row-gap: 30px;
+}
+.bott4-grid img{
+    width: 100px;
+    height: 100px;
+}
+.media{
+    display: flex;
+    flex-direction: row;
+}
+.media img{
+    float: left;
+}
+.media p{
+    float: right;
+    padding: 40px 20px;
 }
