@@ -108,6 +108,7 @@
     display: grid;
     place-items: center;
 }
+/* FLEX STARTS HERE
 .f1-5{
     height: 600px;
     max-width: 1600px;
@@ -134,7 +135,7 @@
     background-color: rgb(71, 255, 117);
     /*background: linear-gradient(white, black), url(../img/space1.jpg);
     background-blend-mode:darken;
-    color: white;*/
+    color: white;
 }
 .f2{
     height: 246px;
@@ -142,7 +143,7 @@
     background-color: rgb(71, 99, 255);
     /*background: linear-gradient(white, black), url(../img/space1.jpg);
     background-blend-mode:darken;
-    color: white;*/
+    color: white;
 }
 .f3a4{
     height: 246px;
@@ -156,7 +157,7 @@
     background-color: rgb(71, 255, 117);
     /*background: linear-gradient(white, black), url(../img/space1.jpg);
     background-blend-mode:darken;
-    color: white;*/
+    color: white;
 }
 .f3{
     height: 246px;
@@ -165,7 +166,7 @@
     background-color: rgb(238, 23, 184);
     /*background: linear-gradient(white, black), url(../img/space1.jpg);
     background-blend-mode:darken;
-    color: white;*/    
+    color: white;  
 }
 .f4{
     height: 246px;
@@ -173,24 +174,29 @@
     background-color: rgb(212, 245, 24);
     /*background: linear-gradient(white, black), url(../img/space1.jpg);
     background-blend-mode:darken;
-    color: white;*/    
+    color: white;  
 }
-/* GRID CLASS STARTS
+ FLEX ENDS HERE */
+/* GRID CLASS STARTS */
 .gd{
-    height: 500px;
+    height: 600px;
     background-color: rgb(238, 216, 216);
-    width: 100%;
+    max-width: 1600px;
     display: grid;
-    margin-top: 30px;
-    margin-bottom: 50px;
 }
 .g1-5{
-    height: 500px;
+    height: 600px;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat (4, 25%);
-    grid-template-rows: repeat (5, 20%);
-    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    /*grid-template-areas:
+        "one21 one21 three23 four24"
+        "one21 one21 three23 four24"
+        "one21 one21 five25 five25"
+        "two22 two22 five25 five25"
+        "two22 two22 five25 five25";*/
     box-sizing: border-box;
 }
 .g1{
@@ -217,20 +223,12 @@
     background-color: tomato;
     grid-area: 3/3/6/5;
     box-sizing: border-box;
-}
-
-.middleSide1{
-    height:300px;
-    background: linear-gradient(white, black), url(back.png) no-repeat center center / cover;
-    background-blend-mode:darken;
-    color: #F8ACAC;
-    font-family: 'Gowun Dodum', sans-serif;
-    position: relative;
-}  GRID CLASS ENDS*/
+}  
+/*GRID CLASS ENDS*/
 .top3{
     height: 120px;
     width: 100%;
-    background-color: rgb(238, 216, 216);
+    background-color: rgb(238, 200, 200);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,6 +238,7 @@
     width: 50%;
     border: solid black 1px;
 }
+/*==== Second Top ====*/
 .sectop{
     display: grid;
     place-items: center;
@@ -535,6 +534,10 @@ input:focus{
 }
 .footflex2-1{
     width: 50%;
+}
+.footbut ul {
+    list-style-type: none;
+    margin-left: -10px;
 }
 .foot2{
     width: 100%;
