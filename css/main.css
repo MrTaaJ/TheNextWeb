@@ -612,15 +612,20 @@ input:focus{
     height: 400px;
     background-color: black;
 }
-.foot1{
-    width: 100%;
-    height: 250px;
+.footermax{
     border-bottom: white 1px solid;
+    width: 100%;
+    
+}
+.foot1{
+    max-width: 1600px;
+    height: 250px;
+    margin: 0% 10%;
     display: flex;
     flex-flow: row nowrap;
     padding-top: 50px;
     padding-right: 100px;
-    padding-left: 50px;
+    padding-left: 0px;
     background-color: burlywood;
 }
 .footflex{
