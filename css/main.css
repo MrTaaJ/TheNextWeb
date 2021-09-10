@@ -47,8 +47,8 @@
 }
 .midfloat ul ul{
     position: absolute;
-    top: 50px;
-    height: 300px;
+    top: 45px;
+    height: 330px;
     left: 0px;
     overflow: scroll;
     width: 100%;
@@ -60,8 +60,8 @@
     content: "";
     height: 15px;
     width: 15px;
-    left: 525px;
-    top: 45px;
+    left: 39.5%;
+    top: 40px;
     background-color: darkmagenta;
     transform: rotate(45deg);
 }
