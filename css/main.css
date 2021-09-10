@@ -454,7 +454,7 @@
 .bott-box{
     background-color: darkorange;
     width: 19%;
-    margin-right: 7px;
+    margin-right: 10px;
     display: inline-block;
 }
 .bott-logo{
@@ -593,14 +593,11 @@ input:focus{
     width: 130px;
     opacity: 0.8;
 }
-.btlg4{
-    transform: scale(2);
-}
 .btlg1{
-    transform: scale(0.7);
+    transform: scale(0.8);
 }
 .btlg2{
-    transform: scale(0.7);
+    transform: scale(0.8);
 }
 .btlg5{
     transform: scale(0.8);
@@ -609,7 +606,6 @@ input:focus{
 /*==== FOOTER ====*/
 .footer{
     width: 100%;
-    height: 400px;
     background-color: black;
 }
 .footermax{
@@ -656,6 +652,19 @@ input:focus{
 @media screen and (min-width:1400px){
     .foot1{
         max-width: 1600px;
-        margin: 0% 10%;
+        margin: 0% 15%;
+    }
+    .midfloat ul ul{
+        top: 41px;
+    }
+    .midfloat ul ul::before{
+        position: fixed;
+        content: "";
+        height: 15px;
+        width: 15px;
+        left: 43%;
+        top: 36px;
+        background-color: darkmagenta;
+        transform: rotate(45deg);
     }
 }
