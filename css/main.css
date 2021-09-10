@@ -45,6 +45,67 @@
     text-decoration: none;
     color: var(--maincolor);
 }
+.midfloat ul ul{
+    position: absolute;
+    top: 50px;
+    height: 300px;
+    left: 0px;
+    overflow: scroll;
+    width: 100%;
+    background-color: darkmagenta;
+    visibility: hidden;
+}
+.midfloat ul ul::before{
+    position: fixed;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 525px;
+    top: 45px;
+    background-color: darkmagenta;
+    transform: rotate(45deg);
+}
+.midfloat ul li a:hover{
+    background-color: white;
+}
+.midfloat ul li a:hover >ul{
+    visibility: visible;
+}
+.buttonsec{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 50px 0px;
+}
+.buttonseco{
+    height: 200px;
+    background-color: darkblue;
+    padding: 0px 20px;
+    border-right: solid white 1px;
+    
+}
+.bottseco{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: darkorange;
+}
+.bottsec1{
+    background-color: rgb(197, 137, 63);
+    width: 180px;
+}
+.chan1{
+    margin-right: 15px;
+}
+.bottsec-logo{
+    background-color: rgb(0, 162, 255);
+    padding: 30px 33%;
+}
+.bottsec-text{
+    background-color: rgb(77, 58, 35);
+    text-align: left;
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
 /*
 .navheader a:hover{
     transition: 1s;
