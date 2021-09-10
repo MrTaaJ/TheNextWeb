@@ -618,14 +618,13 @@ input:focus{
     
 }
 .foot1{
-    max-width: 1600px;
+    width: 100%;
     height: 250px;
-    margin: 0% 10%;
     display: flex;
     flex-flow: row nowrap;
     padding-top: 50px;
     padding-right: 100px;
-    padding-left: 0px;
+    padding-left: 50px;
     background-color: burlywood;
 }
 .footflex{
@@ -653,4 +652,10 @@ input:focus{
     place-items: center;
     line-height: 30px;
     text-align: center;
+}
+@media screen and (min-width:1400px){
+    .foot1{
+        max-width: 1600px;
+        margin: 0% 10%;
+    }
 }
