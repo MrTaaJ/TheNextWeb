@@ -314,7 +314,7 @@
         /* display: flex;
         flex-flow: row nowrap; */
     }
-    .footflex2-1{
+    /* .footflex2-1{
         width: 50%;
     }
     .footbut ul {
@@ -328,5 +328,5 @@
         place-items: center;
         line-height: 30px;
         text-align: center;
-    }
+    } */
 }

@@ -56,12 +56,13 @@
 .navulul{
     position: absolute;
     top: 55px;
-    height: 350px;
+    height: 300px;
     left: 0px;
     overflow: scroll;
     width: 100%;
-    background-color: darkmagenta;
+    background-color: black;
     visibility: hidden;
+    
 }
 .navulul::before{
     position: fixed;
@@ -70,47 +71,58 @@
     width: 15px;
     left: 39.5%;
     top: 50px;
-    background-color: darkmagenta;
+    background-color: black;
     transform: rotate(45deg);
 }
 /* News Button  */
 .buttonsec{
     display: flex;
     flex-flow: row nowrap;
-    padding: 30px 0px;
+    padding-top: 15px;
 }
 .buttonseco{
-    height: 200px;
-    background-color: darkblue;
+    height: 210px;
     padding: 0px 20px;
     border-right: solid white 1px;
     
 }
+.buttonseco h4{
+    color: var(--backcolor);
+}
 .bottseco{
+    margin-top: 10px;
     display: flex;
     flex-flow: row nowrap;
-    background-color: darkorange;
 }
 .bottsec1{
-    background-color: rgb(197, 137, 63);
-    width: 180px;
+    width: 160px;
+    cursor: pointer;
+}
+.bottsec1:hover .sectext2{
+    opacity: 1;
 }
 .chan1{
     margin-right: 15px;
 }
 .bottsec-logo{
-    background-color: rgb(0, 162, 255);
-    padding: 30px 33%;
+    width: 160px;
+    height: 90px;
 }
 .bottsec-text{
-    background-color: rgb(77, 58, 35);
     text-align: left;
     padding: 10px 0px;
-    font-size: 12px;
+    color: white;
+}
+.sectext{
+    font: 500 14px 'GraphikRegular', sans-serif;
+}
+.sectext2{
+    font: 400 11px/10px 'GraphikRegular', sans-serif;
+    opacity: 0.8;
 }
 /* Events Button  */
 .eventbut{
-    background-color: lightcoral;
+    background-color: black;
     width: 200px;
     position: absolute;
     top: 55px;
@@ -119,13 +131,21 @@
     display: grid;
     place-items: center;
     line-height: 5px;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+}
+.eventbut:hover{
+    background-color: var(--maincolor);
 }
 .eventbut-text{
     padding-top: 10px;
+    font: 500 16px 'GraphikRegular', sans-serif;
 }
 .eventbut-text2{
     font-size: 12px;
     margin-top: -15px;
+    font: 500 12px 'GraphikRegular', sans-serif;
 }
 .eventbut::before{
     position: fixed;
@@ -134,12 +154,13 @@
     width: 15px;
     left: 43%;
     top: -6px;
-    background-color: darkmagenta;
+    background-color: black;
     transform: rotate(45deg);
+    z-index: -1;
 }
 /* More Button */
 .morebut{
-    background-color: lightcoral;
+    background-color: black;
     width: 200px;
     position: absolute;
     top: 55px;
@@ -147,7 +168,10 @@
     transform: translateX(-50px);
     display: flex;
     flex-flow: column;
-    
+    cursor: pointer;
+}
+.morebut1:hover{
+    background-color: var(--maincolor);
 }
 .morebutz{
     visibility: hidden;
@@ -156,6 +180,9 @@
     display: grid;
     place-items: center;
     line-height: 35px;
+    height: 70px;
+    background-color: black;
+    color: white;
 }
 .mor{
     border-bottom: lightgray solid 1px;
@@ -167,14 +194,32 @@
     width: 15px;
     left: 43%;
     top: -6px;
-    background-color: darkmagenta;
+    background-color: black;
     transform: rotate(45deg);
+    z-index: -1;
 }
 .midfloat ul li:hover{
     background-color: white;
 }
+@keyframes myframes {
+    0%{
+        height: 2%;
+        top: 45px;
+    }
+    100%{
+        height: 100%;
+        top: 55px;
+    }
+}
 .midfloat ul li:hover>ul{
     visibility: visible;
+    animation: myframes 0.1s ease-in 0s;
+}
+.midfloat ul li:hover .eventbut{
+    animation: myframes 0.1s ease-in 0s;
+}
+.midfloat ul li:hover .morebut{
+    animation: myframes 0.1s ease-in 0s;
 }
 /*
 .navheader a:hover{
@@ -219,8 +264,8 @@
     box-sizing: border-box;
     height: 250px;
     padding: 70px 30px;
-    max-width: 1500px;
-    /*background-color: rgb(238, 216, 216);*/
+    max-width: 1400px;
+    /* background-color: rgb(228, 139, 139); */
     margin: 5px;
 }
 .logo{
@@ -235,7 +280,7 @@
 }
 .top2{
     height: 600px;
-    background-color: rgb(238, 216, 216);
+    /* background-color: rgb(238, 216, 216); */
     width: 100%;
     display: grid;
     place-items: center;
@@ -312,7 +357,7 @@
 /* GRID CLASS STARTS */
 .gd{
     height: 600px;
-    background-color: rgb(238, 216, 216);
+    /* background-color: rgb(238, 216, 216); */
     max-width: 1600px;
     display: grid;
 }
@@ -541,21 +586,66 @@
     padding: 50px 0px;
     background-color: rgb(24, 23, 21);
 }
+.one{
+    background-image: url(../img/back-one.jpg);
+    background-blend-mode:darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two{
+    background-image: url(../img/back-two.jpg);
+    background-blend-mode:darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.three{
+    background-image: url(../img/back-three.jfif);
+    background-blend-mode:darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.four{
+    background-image: url(../img/back-four.jfif);
+    background-blend-mode:darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.five{
+    background-image: url(../img/back-five.webp);
+    background-blend-mode:darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .bott-box{
-    background-color: darkorange;
     width: 19%;
-    margin-right: 10px;
+    height: 250px;
+    margin-right: 15px;
     display: inline-block;
+    /* background: linear-gradient(to right, var(--primary), var(--secondary)), url(back.png) no-repeat center center / cover; */
 }
 .bott-logo{
-    background-color: rgb(0, 162, 255);
+    height: 150px;
+    /* background-color: rgb(0, 162, 255); */
     padding: 40px 33%;
 }
+.bott-logo img{
+    transform: scale(1.5);
+}
 .bott-text{
-    margin-top: 30px;
-    background-color: rgb(77, 58, 35);
+    height: 100px;
+    font-size: 12px;
+    color: white;
+    font: 500 16px/24px 'GraphikRegular', sans-serif;
+    /* margin-top: 30px; */
+    /* background-color: rgb(77, 58, 35); */
     text-align: center;
-    padding: 20px;
+    padding: 30px 15px;
+    box-sizing: border-box;
 }
 /*==== Bottom Part (2)====*/
 .bottom2{
@@ -679,11 +769,15 @@ input:focus{
     margin-top: 80px;
 }
 .bott4-logo img{
-    height: 50px;
-    width: 130px;
-    opacity: 0.8;
+    height: 90px;
+    width: 140px;
+    opacity: 0.6;
+    /* transition: opacity 1s ease-in-out 0s; */
 }
-.btlg1{
+.bott4-logo img:hover{
+    opacity: 1;
+}
+/* .btlg1{
     transform: scale(0.8);
 }
 .btlg2{
@@ -692,7 +786,7 @@ input:focus{
 .btlg5{
     transform: scale(0.8);
     margin-right: 10px;
-}
+} */
 /*==== FOOTER ====*/
 .footer{
     width: 100%;
@@ -740,21 +834,10 @@ input:focus{
     text-align: center;
 }
 @media screen and (min-width:1400px){
-    .foot1{
-        max-width: 1600px;
-        margin: 0% 15%;
+    .footermax{
+        padding: 0px 15%;
     }
-    .midfloat ul ul{
-        top: 41px;
-    }
-    .midfloat ul ul::before{
-        position: fixed;
-        content: "";
-        height: 15px;
-        width: 15px;
-        left: 43%;
-        top: 36px;
-        background-color: darkmagenta;
-        transform: rotate(45deg);
+    .navulul::before{
+        left: 42%;
     }
 }
