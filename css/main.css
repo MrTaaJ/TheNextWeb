@@ -31,6 +31,10 @@
     text-align: center;
     font: 1000 15px/20px 'Bungee Hairline', cursive;
 }
+.midfloat ul li{
+    height: 45px;
+    padding: 10px 5px;
+}
 .rightfloat ion-icon{
     font-size: 25px;
     opacity: 0.4;
@@ -45,36 +49,35 @@
     text-decoration: none;
     color: var(--maincolor);
 }
-.midfloat ul ul{
+.midfloat2{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.navulul{
     position: absolute;
-    top: 45px;
-    height: 330px;
+    top: 55px;
+    height: 350px;
     left: 0px;
     overflow: scroll;
     width: 100%;
     background-color: darkmagenta;
     visibility: hidden;
 }
-.midfloat ul ul::before{
+.navulul::before{
     position: fixed;
     content: "";
     height: 15px;
     width: 15px;
     left: 39.5%;
-    top: 40px;
+    top: 50px;
     background-color: darkmagenta;
     transform: rotate(45deg);
 }
-.midfloat ul li a:hover{
-    background-color: white;
-}
-.midfloat ul li a:hover >ul{
-    visibility: visible;
-}
+/* News Button  */
 .buttonsec{
     display: flex;
     flex-flow: row nowrap;
-    padding: 50px 0px;
+    padding: 30px 0px;
 }
 .buttonseco{
     height: 200px;
@@ -105,7 +108,74 @@
     padding: 10px 0px;
     font-size: 12px;
 }
-
+/* Events Button  */
+.eventbut{
+    background-color: lightcoral;
+    width: 200px;
+    position: absolute;
+    top: 55px;
+    height: 70px;
+    transform: translateX(-50px);
+    display: grid;
+    place-items: center;
+    line-height: 5px;
+}
+.eventbut-text{
+    padding-top: 10px;
+}
+.eventbut-text2{
+    font-size: 12px;
+    margin-top: -15px;
+}
+.eventbut::before{
+    position: fixed;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 43%;
+    top: -6px;
+    background-color: darkmagenta;
+    transform: rotate(45deg);
+}
+/* More Button */
+.morebut{
+    background-color: lightcoral;
+    width: 200px;
+    position: absolute;
+    top: 55px;
+    min-height: 70px;
+    transform: translateX(-50px);
+    display: flex;
+    flex-flow: column;
+    
+}
+.morebutz{
+    visibility: hidden;
+}
+.morebut1{
+    display: grid;
+    place-items: center;
+    line-height: 35px;
+}
+.mor{
+    border-bottom: lightgray solid 1px;
+}
+.morebut::before{
+    position: fixed;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 43%;
+    top: -6px;
+    background-color: darkmagenta;
+    transform: rotate(45deg);
+}
+.midfloat ul li:hover{
+    background-color: white;
+}
+.midfloat ul li:hover>ul{
+    visibility: visible;
+}
 /*
 .navheader a:hover{
     transition: 1s;
