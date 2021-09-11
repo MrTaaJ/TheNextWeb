@@ -3,6 +3,34 @@
     --maincolor: rgba(80, 86, 102, 1);
     --backcolor: rgb(150, 157, 175, 1);
 }
+@font-face {
+    font-family: Shentox;
+    src: url(../fonts/Shentox.otf);
+}
+@font-face {
+    font-family: Avalon_Plain;
+    src: url(../fonts/Avalon_Plain.ttf);
+}
+@font-face {
+    font-family: Avalon_Regular;
+    src: url(../fonts/Avalon_Regular.ttf);
+}
+@font-face {
+    font-family: Avalon_Bold;
+    src: url(../fonts/Avalon_Bold.ttf);
+}
+@font-face {
+    font-family: GraphikLight;
+    src: url(../fonts/GraphikLight.otf);
+}
+@font-face {
+    font-family: GraphikMedium;
+    src: url(../fonts/GraphikMedium.otf);
+}
+@font-face {
+    font-family: GraphikRegular;
+    src: url(../fonts/GraphikRegular.otf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -26,4 +54,11 @@ display: block;
 height: 0px;
 line-height: 0px;
 visibility: hidden;
+}
+h4{
+    font: 400 15px/20px 'Shentox', sans-serif;
+}
+h1{
+    font: 700 40px/40px 'Avalon_Bold', sans-serif;
+    letter-spacing: -1px;
 }
