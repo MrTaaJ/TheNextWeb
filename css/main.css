@@ -611,7 +611,6 @@
     background-color: var(--backcolor);
     display: grid;
     place-items: center;
-    
 }
 /*==== Bottom Part (1)====*/
 .bottom1{
@@ -776,6 +775,8 @@ input:focus{
 .bottom4{
     background-color: white;
     padding: 100px 50px;
+    /* display: none; */
+    box-sizing: border-box;
 }
 .bott4{
     display: flex;
@@ -834,14 +835,13 @@ input:focus{
 }
 .bott4-logos{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-content: center;
     margin-top: 80px;
 }
 .bott4-logo img{
     height: 90px;
-    width: 140px;
     opacity: 0.6;
     /* transition: opacity 1s ease-in-out 0s; */
 }
