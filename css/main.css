@@ -249,11 +249,9 @@
 }
 /*==== Top ====*/
 .top{
-    position: relative;
-    top: 100px;
-    padding: 0 30px 30px 30px;
+    padding: 100px 30px 30px 30px;
     background-color: white;
-    height: 1000px;
+    height: 1100px;
     box-sizing: border-box;
 }
 .top1-align{
@@ -466,53 +464,69 @@
 }
 .sectop-grid{
     max-width: 1500px;
-    height: 300px;
+    height: 250px;
     display: block;
 }
 .sectop-grid>h2{
     text-align: center;
+    font: 500 28px/30px 'GraphikMedium', sans-serif;
+    letter-spacing: -1px;
 }
 .st-art{
     margin-top: 30px;
     display: inline-block;
     height: 220px;
     width: 100%;
-    background-color: yellow;
     padding: 1.5% 1%;
 }
 .st-art1{
-    background-color: rgba(44, 2, 14, 0.089);
+    /* background-color: rgba(44, 2, 14, 0.089); */
     padding: 1%;
     display: inline-block;
     width: 19.6%;
     height: 170px;
+    font: 550 15px/25px 'GraphikRegular', sans-serif;
+    color: black;
+    letter-spacing: .5px;
+}
+.st-art1 p{
+    cursor: pointer;
+    /* transition: text-decoration-thickness 5s ease-in 0s; */
+}
+.st-art1:hover p{
+    text-decoration: underline;
+    text-decoration-color: #c09;
+    text-decoration-thickness: 2px;
 }
 .st-art1 p span{
     display: block;
     height: 150px;
     float: left;
-    font-size: 3em;
+    font-size: 38px;
     line-height: 1em;
     padding: 0 10px;
     font-weight: 500;
-    color: brown;
+    color: #c09;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*==== Third Top ====*/
 .trdtop{
     display: block;
     padding: 3% 5%;
-    background-color: aqua;
+    background-color: white;
     margin-top: 50px;
     display: grid;
     place-items: center;
 }
 .trdtop1{
-    background-color: tomato;
     max-width: 1300px;
+}
+.trdtop1>h1{
+    color: black;
 }
 .ttop-grid{
     margin: 30px 0px;
-    background-color: brown;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -523,43 +537,27 @@
 }
 .ttop-grid1{
     grid-area: ttgd1;
-    background-color: cadetblue;
-
 }
 .ttop-grid2{
     grid-area: ttgd2;
-    background-color: cadetblue;
-
 }
 .ttop-grid3{
     grid-area: ttgd3;
-    background-color: cadetblue;
-
 }
 .ttop-grid4{
     grid-area: ttgd4;
-    background-color: cadetblue;
-
 }
 .ttop-grid5{
     grid-area: ttgd5;
-    background-color: cadetblue;
-
 }
 .ttop-grid6{
     grid-area: ttgd6;
-    background-color: cadetblue;
-
 }
 .ttop-grid7{
     grid-area: ttgd7;
-    background-color: cadetblue;
-
 }
 .ttop-grid8{
     grid-area: ttgd8;
-    background-color: cadetblue;
-
 }
 .ttop-img{
     margin-bottom: 10px;
@@ -570,9 +568,16 @@
     width: 420%;
     height: 200px;
 }
+.ttop-text{
+    font: 600 14px/20px 'Avalon_Regular', sans-serif;
+    color: black;
+}
+.text-time{
+    color: var(--maincolor);
+    font: 500 14px/30px 'GraphikRegular', sans-serif;
+}
 .ttop-btt{
     margin-top: 20px;
-    background-color: crimson;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -587,11 +592,23 @@
     text-align: center;
     padding: 7px;
 }
+.newsbtt a{
+    text-decoration-line: none;
+}
+.newsbtt-text{
+    font: 400 14px/20px 'Avalon_Bold', sans-serif;
+}
+.newsbtt:hover{
+    border: solid 1px black;
+}
+.newsbtt:hover .newsbtt-icon>ion-icon{
+    transform: translateX(5px);
+}
 
 /*==== Bottom Part ====*/
 .bottom{
     margin-top: 50px;
-    background-color: darkblue;
+    background-color: var(--backcolor);
     display: grid;
     place-items: center;
     
@@ -602,12 +619,14 @@
     padding: 100px 40px;
     max-width: 1600px;
 }
+.bottom1>h1{
+    color: black;
+}
 .bott{
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
     padding: 50px 0px;
-    background-color: rgb(24, 23, 21);
 }
 .one{
     background-image: url(../img/back-one.jpg);
@@ -649,11 +668,9 @@
     height: 250px;
     margin-right: 15px;
     display: inline-block;
-    /* background: linear-gradient(to right, var(--primary), var(--secondary)), url(back.png) no-repeat center center / cover; */
 }
 .bott-logo{
     height: 150px;
-    /* background-color: rgb(0, 162, 255); */
     padding: 40px 33%;
 }
 .bott-logo img{
@@ -664,20 +681,41 @@
     font-size: 12px;
     color: white;
     font: 500 16px/24px 'GraphikRegular', sans-serif;
-    /* margin-top: 30px; */
-    /* background-color: rgb(77, 58, 35); */
     text-align: center;
     padding: 30px 15px;
     box-sizing: border-box;
 }
 /*==== Bottom Part (2)====*/
+.bottom02{
+    width: 100%;
+    background-color: black;
+}
 .bottom2{
     width: 100%;
     height: 400px;
-    background-color: rgb(77, 58, 35);
+    background-image: url(../img/backbottom.webp);
+    background-blend-mode:darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: grid;
     place-content: center;
     text-align: center;
+    color: white;
+}
+.bott2{
+    line-height: 50px;
+}
+.bott2 p{
+    font: 500 16px/50px 'GraphikRegular', sans-serif;
+}
+.bott2 p a{
+    color: #0cc;
+    text-decoration-line: none;
+}
+.bott2 p a:hover{
+    color: white;
 }
 .bott2-inp{
     display: flex;
@@ -686,7 +724,6 @@
     height: 50px;
     background-color: white;
     width: 700px;
-    border: solid red 1px;
     border-radius: 5px;
     margin-top: 20px;
     padding: 0px 10px;
@@ -714,15 +751,21 @@ input:focus{
     margin-top: 30px;
 }
 .soc-logo ion-icon{
-    font-size: 25px;
-    color: var(--maincolor);
+    font-size: 30px;
+    color: rgb(197, 190, 192);
     margin: -5px;
+}
+.soc-logo ion-icon:hover{
+    color: white;
 }
 /*==== Bottom Part (3)====*/
 .bottom3{
-    background-color: violet;
+    background-color: var(--backcolor);
     padding: 70px 50px;
-    max-width: 1300px;
+    max-width: 1400px;
+}
+.bottom3-1>h1{
+    color: black;
 }
 .bott3{
     height: 700px;
@@ -739,14 +782,16 @@ input:focus{
     flex-direction: row;
     flex-wrap: nowrap;
     max-width: 1300px;
-    background-color: black;
     grid-gap: 40px;
+}
+.text>h1{
+    color: black;
 }
 .text p{
     line-height: 25px;
     margin-top: 15px;
+    font: 500 18px/30px 'GraphikLight', sans-serif;
 }
-
 .bott4-1{
     width: 50%;
 }
@@ -762,6 +807,7 @@ input:focus{
 .bott4-but a{
     text-decoration: none;
     color: white;
+    font: 500 14px/30px 'GraphikLight', sans-serif;
 }
 .bott4-grid{
     display: grid;
@@ -783,6 +829,8 @@ input:focus{
 .media p{
     float: right;
     padding: 40px 20px;
+    font: 400 16px/30px 'Avalon_Bold', sans-serif;
+    color: black;
 }
 .bott4-logos{
     display: flex;
@@ -800,16 +848,7 @@ input:focus{
 .bott4-logo img:hover{
     opacity: 1;
 }
-/* .btlg1{
-    transform: scale(0.8);
-}
-.btlg2{
-    transform: scale(0.8);
-}
-.btlg5{
-    transform: scale(0.8);
-    margin-right: 10px;
-} */
+
 /*==== FOOTER ====*/
 .footer{
     width: 100%;
@@ -818,7 +857,6 @@ input:focus{
 .footermax{
     border-bottom: white 1px solid;
     width: 100%;
-    
 }
 .foot1{
     width: 100%;
@@ -828,13 +866,15 @@ input:focus{
     padding-top: 50px;
     padding-right: 100px;
     padding-left: 50px;
-    background-color: burlywood;
 }
 .footflex{
     width: 50%;
 }
 .foot-text{
     margin-left: 10px;
+    margin-bottom: 50px;
+    color: white;
+    font: 500 16px/30px 'GraphikRegular', sans-serif;
 }
 .footflex2{
     width: 50%;
@@ -843,6 +883,20 @@ input:focus{
 }
 .footflex2-1{
     width: 50%;
+}
+.footflex2-1>h3{
+    color: white;
+    font: 500 18px/30px 'Avalon_Bold', sans-serif;
+}
+.footbut a{
+    text-decoration-line: none;
+    color: #0cc;
+    font: 500 14px/25px 'GraphikLight', sans-serif;
+}
+.footbut a:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: #0cc;
 }
 .footbut ul {
     list-style-type: none;
@@ -855,6 +909,15 @@ input:focus{
     place-items: center;
     line-height: 30px;
     text-align: center;
+    font: 500 14px/25px 'GraphikLight', sans-serif;
+    color: rgb(197, 190, 192);
+}
+.foot2 a{
+    text-decoration-line: none;
+    color: white;
+}
+.foot2 a:hover{
+    color: #0cc;
 }
 @media screen and (min-width:1400px){
     .footermax{
