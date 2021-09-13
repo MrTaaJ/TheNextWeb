@@ -491,14 +491,28 @@
 }
 .st-art1 p{
     cursor: pointer;
-    /* transition: text-decoration-thickness 5s ease-in 0s; */
+    text-underline-offset: 2px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--backcolor);
+    text-decoration-thickness: 0px;
 }
-.st-art1:hover p{
-    text-decoration: underline;
-    text-decoration-color: #c09;
+@keyframes decor {
+    0%{
+        text-decoration-thickness: 0px;
+    }
+    50%{
+        text-decoration-thickness: 1px;
+    }
+    100%{
+        text-decoration-thickness: 2px;
+    }
+}
+.st-art1 p:hover{
+    text-decoration-color: rgb(247, 182, 231);
     text-decoration-thickness: 2px;
+    animation: decor .1s ease-in 0s;
 }
-.st-art1 p span{
+.st-art1 span{
     display: block;
     height: 150px;
     float: left;
