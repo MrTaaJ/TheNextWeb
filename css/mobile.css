@@ -1,15 +1,27 @@
 @media screen and (max-width:750px){
-    /* .gd{
-        height: 600px;
-        width: 100%;
-        display: grid;
-    } */
+    .top{
+        /* padding: 100px 30px 30px 30px; */
+        background-color: white;
+        height: 1100px;
+        box-sizing: border-box;
+    }
+    .top2{
+        height: 620px;
+        /* width: 100%; */
+        display: block;
+    }
+    .gd{
+        height: 400px;
+        margin-bottom: 10px;
+        /* width: 100%; */
+        
+    }
     .g1-5{
         height: 400px;
         display: flex;
-        width: 1400px;
+        width: 300%;
         flex-flow: row nowrap;
-        overflow: hidden;
+        overflow: scroll;
     }
     /* .g1-5::-webkit-scrollbar {
         scrollbar: 5px;
@@ -33,9 +45,11 @@
         display:block;
         height: 200px;
         width: 100%;
+        padding-top: 15px;
+        /* margin-top: 5px; */
     }
     .mobileflex{
-        width: 1000px
+        width: 75%;
     }
     .g2{
         grid-area: 4/1/6/3;
@@ -45,7 +59,7 @@
     .g2grid{
         display: grid;
         place-items: center;
-        margin-top: 70px;
+        /* margin-top: 70px; */
     }
     .g2text h5{
         font: 800 22px/25px 'Avalon_Bold', sans-serif;
