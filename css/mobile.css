@@ -1,0 +1,92 @@
+@media screen and (max-width:750px){
+    /* .gd{
+        height: 600px;
+        width: 100%;
+        display: grid;
+    } */
+    .g1-5{
+        height: 400px;
+        display: flex;
+        width: 1400px;
+        flex-flow: row nowrap;
+        overflow: hidden;
+    }
+    /* .g1-5::-webkit-scrollbar {
+        scrollbar: 5px;
+        thumb: 
+        track:
+    }  */
+    .posre{
+        position: relative;
+    }
+    .posab{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 25px;
+        color: white;
+    }
+    .mobile1{
+        display: none;
+    }
+    .mobile{
+        display:block;
+        height: 200px;
+        width: 100%;
+    }
+    .mobileflex{
+        width: 1000px
+    }
+    .g2{
+        grid-area: 4/1/6/3;
+        background: linear-gradient(white, black), url(../img/plugged.jfif) no-repeat;
+        background-blend-mode:darken;
+    }
+    .g2grid{
+        display: grid;
+        place-items: center;
+        margin-top: 70px;
+    }
+    .g2text h5{
+        font: 800 22px/25px 'Avalon_Bold', sans-serif;
+        letter-spacing: -1;
+        color: white;
+        text-align: center;
+    }
+    .g2butt{
+        margin-top: 15px;
+        border: solid white 1px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        cursor: pointer;
+        font: 400 14px/25px 'GraphikMedium', sans-serif;
+    }
+    .g2butt a{
+        text-decoration: none; 
+        color: white;
+    }
+    .g3text p{
+        font: 500 20px/25px 'GraphikMedium', sans-serif;
+    }
+    .g3{
+        grid-area: 1/3/3/4;
+        background: linear-gradient(white, black), url(../img/plugged.jfif) no-repeat;
+        background-blend-mode:darken;
+        cursor: pointer;
+    }
+    .g4text p{
+        font: 500 20px/25px 'GraphikMedium', sans-serif;
+    }
+    .g4{
+        grid-area: 1/4/3/5;
+        background: linear-gradient(white, black), url(../img/zucked.jfif) no-repeat;
+        background-blend-mode:darken;
+        cursor: pointer;
+    }
+    .g5{
+        background: linear-gradient(white, black), url(../img/social-media.jfif);
+        background-blend-mode:darken;
+        grid-area: 3/3/6/5;
+        cursor: pointer;
+    }  
+}

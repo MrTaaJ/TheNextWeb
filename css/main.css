@@ -397,6 +397,9 @@
     background: linear-gradient(white, black), url(../img/plugged.jfif) no-repeat;
     background-blend-mode:darken;
 }
+.mobile{
+    display:none;
+}
 .g2grid{
     display: grid;
     place-items: center;
