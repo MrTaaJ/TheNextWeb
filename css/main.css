@@ -247,6 +247,9 @@
     font-weight: 400;
     margin-top: 10px;
 }
+.navheader3{
+    display: none;
+}
 /*==== Top ====*/
 .top{
     padding: 100px 30px 30px 30px;
@@ -276,7 +279,7 @@
     font: 200 20px 'GraphikLight', sans-serif;
     margin-left: 250px;
     text-align: center;
-    line-height: 50px;
+    line-height: 70px;
 }
 .top2{
     height: 600px;
@@ -510,7 +513,7 @@
 .st-art1 p:hover{
     text-decoration-color: rgb(247, 182, 231);
     text-decoration-thickness: 2px;
-    animation: decor .1s ease-in 0s;
+    animation: decor .1s linear 0s;
 }
 .st-art1 span{
     display: block;
