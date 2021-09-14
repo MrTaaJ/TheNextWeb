@@ -3,7 +3,7 @@
     .header{
         height: 40px;
         display: block;
-        background-color: var(--backcolor);
+        background-color: white;
         box-shadow: 2px 20px 30px #d1d1d1;
         position: fixed;
         width: 100%;
@@ -19,7 +19,7 @@
         display: block;
         height: 40px;
         width: 100%;
-        background-color: var(--backcolor);
+        background-color: white;
     }
     .nav3leftfloat{
         float: left;
@@ -47,8 +47,8 @@
     }
     /*==== Top ====*/
     .top{
-        padding: 50px 30px 30px 30px;
-        height: 1250px;
+        padding: 20px 30px 30px 30px;
+        height: 1200px;
     }
     .top1{
         display: flex;
