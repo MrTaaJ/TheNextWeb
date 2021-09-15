@@ -44,7 +44,7 @@
     .g1-5{
         height: 400px;
         display: flex;
-        width: 900px;
+        width: 1200px;
         flex-flow: row nowrap;
         overflow-x: scroll;
         white-space:wrap;
@@ -95,7 +95,7 @@
         font: 400 12px/20px 'Shentox', sans-serif;
     }
     .gd h1{
-        font: 700 18px/20px 'GraphikMedium', sans-serif;
+        font: 500 18px/20px 'GraphikMedium', sans-serif;
         letter-spacing: 0px;
     }
     .g3text p{
@@ -152,7 +152,7 @@
         padding: 0px;
     }
     .st-art1{
-        padding: 15px;
+        padding: 15px 8px;
         margin-bottom: 10px;
         font: 550 14px/25px 'GraphikRegular', sans-serif;
         /* display: inline-block;
