@@ -328,6 +328,80 @@
         padding: 30px 15px;
         box-sizing: border-box;
     } */
+    /*==== Bottom Part (2)====*/
+    /* .bottom02{
+        width: 100%;
+        background-color: black;
+    }
+    .bottom2{
+        width: 100%;
+        height: 400px;
+        background-image: url(../img/backbottom.webp);
+        background-blend-mode:darken;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: grid;
+        place-content: center;
+        text-align: center;
+        color: white;
+    }
+    .bott2{
+        line-height: 50px;
+    }
+    .bott2 p{
+        font: 500 16px/50px 'GraphikRegular', sans-serif;
+    }
+    .bott2 p a{
+        color: #0cc;
+        text-decoration-line: none;
+    }
+    .bott2 p a:hover{
+        color: white;
+    } */
+    .bott2-inp{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        background-color: white;
+        width: 80%;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 0px 10px;
+    }
+    /* .bott2-inp ion-icon{
+        text-decoration: none;
+        font-size: 25px;
+        color: var(--maincolor);
+    } */
+    .bott2-inp1{
+        width: 60%;
+        /* height: 48px;
+        font-size: 16px;
+        color: var(--maincolor);
+        border: none; */
+    }
+    /* input:focus{
+        outline: none;
+    }
+    .bott2-inp p{
+        color: var(--maincolor);
+        cursor: pointer;
+    }
+    .soc-logo{
+        margin-top: 30px;
+    }
+    .soc-logo ion-icon{
+        font-size: 30px;
+        color: rgb(197, 190, 192);
+        margin: -5px;
+    }
+    .soc-logo ion-icon:hover{
+        color: white;
+    } */
     /*==== Bottom Part (4)====*/
     .bottom4{
         padding: 50px 30px;
@@ -394,7 +468,7 @@
     .bott4-logo img{
         transform: scale(1.5);
     }
-    .bottom1{
+    .bottom1, .bottom3, .bottom4{
         display: none;
     }
     /* Footer */
