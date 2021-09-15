@@ -360,6 +360,10 @@
     .bott2 p a:hover{
         color: white;
     } */
+    .bott2 p{
+        margin-top: 15px;
+        font: 500 16px/20px 'GraphikRegular', sans-serif;
+    }
     .bott2-inp{
         display: flex;
         align-items: center;
@@ -468,7 +472,7 @@
     .bott4-logo img{
         transform: scale(1.5);
     }
-    .bottom1, .bottom3, .bottom4{
+    .bottom1{
         display: none;
     }
     /* Footer */
