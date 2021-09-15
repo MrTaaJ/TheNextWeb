@@ -266,24 +266,23 @@
         overflow-y: hidden;
         overflow-x: scroll;
     }
-    .bott-box{
-        width: 140%;
+    .bott .bott-box{
+        min-width: 30%;
         height: 250px;
         margin-right: 0px;
         display: inline-block;
     }
     .bott-logo{
-        height: 150px;
+        height: 100px;
         padding: 20px;
     }
     .bott-logo img{
-        transform: scale(0.6);
+        transform: scale(1);
     }
     .bott-text{
-        height: 100px;
-        font-size: 12px;
+        height: 150px;
         color: white;
-        font: 500 16px/24px 'GraphikRegular', sans-serif;
+        font: 500 14px/24px 'GraphikRegular', sans-serif;
         text-align: center;
         padding: 20px 15px;
         box-sizing: border-box;
