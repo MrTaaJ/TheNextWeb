@@ -260,14 +260,14 @@
     .bott{
         display: flex;
         flex-flow: row nowrap;
-        width: 100%;
+        max-width: 90%;
         padding: 0px;
         column-gap: 10px;
         overflow-y: hidden;
         overflow-x: scroll;
     }
     .bott .bott-box{
-        min-width: 30%;
+        min-width: 35%;
         height: 250px;
         margin-right: 0px;
         display: inline-block;
