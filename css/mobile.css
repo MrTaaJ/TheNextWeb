@@ -392,11 +392,11 @@
         justify-content: space-between;
         height: 50px;
         background-color: white;
-        max-width: 350px;
+        max-width: 300px;
         border-radius: 5px;
         margin-top: 20px;
         margin-left: 20px;
-        padding: 0px 10px;
+        padding: 0px 5px;
     }
     .bott2-inp p{
         padding-bottom: 15px;
