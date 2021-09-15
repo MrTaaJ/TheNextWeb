@@ -396,4 +396,7 @@
     .bott4-logo img{
         transform: scale(1.5);
     }
+    .bottom3, .bottom1{
+        display: none;
+    }
 }
