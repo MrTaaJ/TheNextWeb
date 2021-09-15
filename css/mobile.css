@@ -11,7 +11,7 @@
         /* letter-spacing: -1px; */
     }
     .top{
-        padding: 100px 15px 30px 15px;
+        padding: 50px 15px 30px 15px;
         background-color: white;
         height: 1050px;
         box-sizing: border-box;
@@ -392,10 +392,10 @@
         justify-content: space-between;
         height: 50px;
         background-color: white;
-        max-width: 300px;
+        max-width: 350px;
         border-radius: 5px;
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 10px;
         padding: 0px 5px;
     }
     .bott2-inp p{
