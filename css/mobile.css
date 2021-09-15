@@ -472,7 +472,7 @@
         grid-template-columns: repeat(2, 50%);
         grid-template-rows: repeat(2, 50%);
         grid-row-gap: 10px;
-        column-gap: 40%;
+        column-gap: 35%;
     }
     /* .bott4-but{
         background-color: #00CCCC;
