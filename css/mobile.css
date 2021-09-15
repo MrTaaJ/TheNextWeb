@@ -505,7 +505,7 @@
     .bott4-logo img{
         transform: scale(1.3);
     }
-    .bottom2{
+    .bottom1, .bottom2{
         display: none;
     }
     /* Footer */
