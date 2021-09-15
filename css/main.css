@@ -646,10 +646,12 @@
 
 /*==== Bottom Part ====*/
 .bottom{
+    padding: 10px 5px 5px 5px;
     margin-top: 50px;
     background-color: var(--backcolor);
     display: grid;
     place-items: center;
+    box-sizing: border-box;
 }
 /*==== Bottom Part (1)====*/
 .bottom1{
