@@ -1,4 +1,8 @@
 @media screen and (max-width:750px){
+    body{
+        box-sizing: border-box;
+        padding: 0 0 0 0;
+    }
     h4{
         /* font: 400 15px/20px 'Shentox', sans-serif; */
     }
