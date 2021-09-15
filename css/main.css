@@ -65,9 +65,41 @@
     
 }
 
+
+
+
 /* .navulul::-webkit-scrollbar {
     thumb-track
 } */
+.navulul::-webkit-scrollbar {
+    height: 20px;
+    /* width: 7px; */
+    border-radius: 3px;
+  }
+  
+  /* Track */
+  .navulul::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    height: 45px;
+  }
+   
+  /* Handle */
+  .navulul::-webkit-scrollbar-thumb {
+    background: #888;
+    height: 15px;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .navulul::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+
+
+
+
 .navulul::before{
     position: fixed;
     content: "";

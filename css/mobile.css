@@ -39,23 +39,26 @@
         height: 400px;
         margin-bottom: 10px;
         width: 100%;
-        overflow: hidden;
+        overflow-y: hidden;
     }
     .g1-5{
         height: 400px;
         display: flex;
         width: 900px;
         flex-flow: row nowrap;
-        overflow: scroll;
+        overflow-x: scroll;
+        white-space:wrap;
     }
     /* .g1-5::-webkit-scrollbar {
         scrollbar: 5px;
         thumb: 
         track:
     }  */
-    /* .posre{
+    .posre{
         position: relative;
-    }
+        width: 500px;
+        display: inline-block;
+    }/*
     .posab{
         position: absolute;
         bottom: 20px;
@@ -72,9 +75,6 @@
         width: 100%;
         padding-top: 15px;
         /* margin-top: 5px; */
-    }
-    .mobileflex{
-        width: 75%;
     }
     /* .g2{
         grid-area: 4/1/6/3;
