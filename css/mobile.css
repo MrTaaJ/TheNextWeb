@@ -1,15 +1,15 @@
 @media screen and (max-width:750px){
-    /* .bott-box::before
+    .bott-box::before
     {
     clear: both;
     content: ".";
     display: block;
     height: 10px;
     line-height: 0px;
-    visibility: visible;
+    visibility: hidden;
     background-color: rgb(121, 26, 26);
-    width:0px;
-    } */
+    width:200px;
+    }
     body{
         box-sizing: border-box;
         padding: 0 0 0 0;
@@ -290,7 +290,7 @@
         background-color: purple;
     }
     .bott .bott-box{
-        min-width: 35%;
+        width: 200px;
         height: 250px;
         margin-right: 0px;
         display: inline-block;
