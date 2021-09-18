@@ -64,7 +64,7 @@ npm run html-validator
 ## 👤 Author
 
 - Github: [@mrtaaj](https://github.com/mrtaaj)
-- Twitter: [@seedif_99](https://twitter.com/seedof_9)
+- Twitter: [@seedof_99](https://twitter.com/seedof_99)
 
 ## 🤝 Contributing
 
