@@ -245,13 +245,6 @@
 .midfloat ul li:hover .morebut{
     animation: myframes 0.1s ease-in 0s;
 }
-/*
-.navheader a:hover{
-    transition: 1s;
-    transform: scale(1.1);
-    color: #000;
-    background-color: #F8ACAC;
-}*/
 .navheader2{
     width: 100%;
     display: block;
@@ -307,75 +300,6 @@
     display: grid;
     place-items: center;
 }
-/* FLEX STARTS HERE
-.f1-5{
-    height: 600px;
-    max-width: 1600px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    
-}
-.f1a2{
-    height: 600px;
-    background-color: tomato;
-    width: 49.7%;
-    margin-right: 8px;
-}
-.f3a4a5{
-    height: 600px;
-    background-color: rgb(160, 102, 92);
-    width: 49.7%;
-}
-.f1{
-    height: 346px;
-    width: 100%;
-    margin-bottom: 8px;
-    background-color: rgb(71, 255, 117);
-    /*background: linear-gradient(white, black), url(../img/space1.jpg);
-    background-blend-mode:darken;
-    color: white;
-}
-.f2{
-    height: 246px;
-    width: 100%;
-    background-color: rgb(71, 99, 255);
-    /*background: linear-gradient(white, black), url(../img/space1.jpg);
-    background-blend-mode:darken;
-    color: white;
-}
-.f3a4{
-    height: 246px;
-    display: flex;
-    background-color: rgb(71, 99, 255);
-    overflow: hidden;
-}
-.f5{
-    height: 346px;
-    margin-top: 8px;
-    background-color: rgb(71, 255, 117);
-    /*background: linear-gradient(white, black), url(../img/space1.jpg);
-    background-blend-mode:darken;
-    color: white;
-}
-.f3{
-    height: 246px;
-    width: 50%;
-    margin-right: 8px;
-    background-color: rgb(238, 23, 184);
-    /*background: linear-gradient(white, black), url(../img/space1.jpg);
-    background-blend-mode:darken;
-    color: white;  
-}
-.f4{
-    height: 246px;
-    width: 50%;
-    background-color: rgb(212, 245, 24);
-    /*background: linear-gradient(white, black), url(../img/space1.jpg);
-    background-blend-mode:darken;
-    color: white;  
-}
- FLEX ENDS HERE */
 /* GRID CLASS STARTS */
 .gd{
     height: 600px;
@@ -389,12 +313,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 10px;
-    /*grid-template-areas:
-        "one21 one21 three23 four24"
-        "one21 one21 three23 four24"
-        "one21 one21 five25 five25"
-        "two22 two22 five25 five25"
-        "two22 two22 five25 five25";*/
 }
 .posre{
     position: relative;
@@ -506,7 +424,6 @@
     padding: 1.5% 1%;
 }
 .st-art1{
-    /* background-color: rgba(44, 2, 14, 0.089); */
     padding: 1%;
     display: inline-block;
     width: 19.6%;
