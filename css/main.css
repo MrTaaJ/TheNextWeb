@@ -31,6 +31,9 @@
   text-align: center;
   font: 400 15px/20px 'Shentox', sans-serif;
 }
+.navheader ul {
+    list-style-type: none;
+  }
 .midfloat ul li {
   height: 45px;
   padding: 10px 5px;
@@ -39,24 +42,17 @@
   font-size: 25px;
   opacity: 0.4;
 }
-.navheader ul {
-  list-style-type: none;
-}
-
 .navheader li {
   display: inline;
 }
-
 .navheader a {
   text-decoration: none;
   color: var(--maincolor);
 }
-
 .midfloat2 {
   display: flex;
   flex-flow: row nowrap;
 }
-
 .navulul {
   position: absolute;
   top: 55px;
@@ -67,35 +63,28 @@
   background-color: black;
   visibility: hidden;
 }
-
 /* Extra */
-
 /* Scrollbar */
 .navulul::-webkit-scrollbar {
   height: 20px;
-
   /* width: 7px; */
   border-radius: 3px;
 }
-
 /* Track */
 .navulul::-webkit-scrollbar-track {
   background: #f1f1f1;
   height: 45px;
 }
-
 /* Handle */
 .navulul::-webkit-scrollbar-thumb {
   background: #888;
   height: 15px;
   border-radius: 10px;
 }
-
 /* Handle on hover */
 .navulul::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
 .navulul::before {
   position: fixed;
   content: "";
@@ -106,63 +95,51 @@
   background-color: black;
   transform: rotate(45deg);
 }
-
 /* News Button  */
 .buttonsec {
   display: flex;
   flex-flow: row nowrap;
   padding-top: 15px;
 }
-
 .buttonseco {
   height: 210px;
   padding: 0 20px;
   border-right: solid white 1px;
 }
-
 .buttonseco h4 {
   color: var(--backcolor);
 }
-
 .bottseco {
   margin-top: 10px;
   display: flex;
   flex-flow: row nowrap;
 }
-
 .bottsec1 {
   width: 160px;
   cursor: pointer;
 }
-
+.sectext2 {
+    font: 400 11px/10px 'GraphikRegular', sans-serif;
+    opacity: 0.8;
+}
 .bottsec1:hover .sectext2 {
   opacity: 1;
 }
-
 .chan1 {
   margin-right: 15px;
 }
-
 .bottsec-logo {
   width: 160px;
   height: 90px;
 }
-
 .bottsec-text {
   text-align: left;
   padding: 10px 0;
   color: white;
 }
-
 .sectext {
   font: 500 14px 'GraphikRegular', sans-serif;
 }
-
-.sectext2 {
-  font: 400 11px/10px 'GraphikRegular', sans-serif;
-  opacity: 0.8;
-}
-
 /* Events Button  */
 .eventbut {
   background-color: black;
@@ -178,22 +155,17 @@
   cursor: pointer;
   z-index: 1;
 }
-
 .eventbut:hover {
   background-color: var(--maincolor);
 }
-
 .eventbut-text {
   padding-top: 10px;
   font: 500 16px 'GraphikRegular', sans-serif;
 }
-
 .eventbut-text2 {
-  font-size: 12px;
   margin-top: -15px;
   font: 500 12px 'GraphikRegular', sans-serif;
 }
-
 .eventbut::before {
   position: fixed;
   content: "";
@@ -205,7 +177,6 @@
   transform: rotate(45deg);
   z-index: -1;
 }
-
 /* More Button */
 .morebut {
   background-color: black;
@@ -218,28 +189,23 @@
   flex-flow: column;
   cursor: pointer;
 }
-
+.morebut1 {
+    display: grid;
+    place-items: center;
+    line-height: 35px;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
 .morebut1:hover {
   background-color: var(--maincolor);
 }
-
 .morebutz {
   visibility: hidden;
 }
-
-.morebut1 {
-  display: grid;
-  place-items: center;
-  line-height: 35px;
-  height: 70px;
-  background-color: black;
-  color: white;
-}
-
 .mor {
   border-bottom: lightgray solid 1px;
 }
-
 .morebut::before {
   position: fixed;
   content: "";
@@ -251,11 +217,9 @@
   transform: rotate(45deg);
   z-index: -1;
 }
-
 .midfloat ul li:hover {
   background-color: white;
 }
-
 @keyframes myframes {
   0% {
     height: 2%;
@@ -267,20 +231,16 @@
     top: 55px;
   }
 }
-
 .midfloat ul li:hover > ul {
   visibility: visible;
   animation: myframes 0.1s ease-in 0s;
 }
-
 .midfloat ul li:hover .eventbut {
   animation: myframes 0.1s ease-in 0s;
 }
-
 .midfloat ul li:hover .morebut {
   animation: myframes 0.1s ease-in 0s;
 }
-
 .navheader2 {
   width: 100%;
   display: block;
@@ -288,7 +248,6 @@
   background-color: #f8d732;
   padding: 7px 20px;
 }
-
 .navheader2 a {
   text-decoration: none;
   color: black;
@@ -297,11 +256,9 @@
   font-weight: 400;
   margin-top: 10px;
 }
-
 .navheader3 {
   display: none;
 }
-
 /* ==== Top ==== */
 .top {
   padding: 100px 30px 30px 30px;
@@ -309,12 +266,10 @@
   height: 1100px;
   box-sizing: border-box;
 }
-
 .top1-align {
   display: grid;
   place-items: center;
 }
-
 .top1 {
   display: flex;
   align-items: center;
@@ -325,33 +280,28 @@
   max-width: 1400px;
   margin: 5px;
 }
-
 .logo {
   margin-right: 250px;
   cursor: pointer;
 }
-
 .top1-text {
   font: 200 20px 'GraphikLight', sans-serif;
   margin-left: 250px;
   text-align: center;
   line-height: 70px;
 }
-
 .top2 {
   height: 600px;
   width: 100%;
   display: grid;
   place-items: center;
 }
-
 /* GRID CLASS STARTS */
 .gd {
   height: 600px;
   width: 100%;
   display: grid;
 }
-
 .g1-5 {
   height: 600px;
   display: grid;
@@ -360,11 +310,9 @@
   grid-template-rows: repeat(5, 1fr);
   gap: 10px;
 }
-
 .posre {
   position: relative;
 }
-
 .posab {
   position: absolute;
   bottom: 20px;
@@ -372,37 +320,31 @@
   right: 25px;
   color: white;
 }
-
 .g1 {
   background: linear-gradient(white, black), url(../img/hardfork.jfif);
   background-blend-mode: darken;
   grid-area: 1/1/4/3;
   cursor: pointer;
 }
-
 .g2 {
   grid-area: 4/1/6/3;
   background: linear-gradient(white, black), url(../img/plugged.jfif) no-repeat;
   background-blend-mode: darken;
 }
-
 .mobile {
   display: none;
 }
-
 .g2grid {
   display: grid;
   place-items: center;
   margin-top: 70px;
 }
-
 .g2text h5 {
   font: 800 22px/25px 'Avalon_Bold', sans-serif;
-  letter-spacing: -1;
+  letter-spacing: -1px;
   color: white;
   text-align: center;
 }
-
 .g2butt {
   margin-top: 15px;
   border: solid white 1px;
