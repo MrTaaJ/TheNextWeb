@@ -4,7 +4,6 @@
 
 ![screenshot](./app_screenshot.png)
 
-
 ## Built With
 
 - Pure HTML5 and CSS3
@@ -60,7 +59,6 @@ You can also check against HTML Validator:
 npm run html-validator
 ```
 
-
 ## 👤 Author
 
 - Github: [@mrtaaj](https://github.com/mrtaaj)
@@ -70,7 +68,6 @@ npm run html-validator
 
 Contributions, issues and feature requests are welcome!
 
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
@@ -78,7 +75,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - A very big thank you to @adejam for his support and encouragement
-
 
 ## 📝 License
 
