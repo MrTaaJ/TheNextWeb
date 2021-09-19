@@ -50,7 +50,6 @@
     width: 1200px;
     flex-flow: row nowrap;
     overflow-x: scroll;
-    white-space: wrap;
   }
 
   .posre {
